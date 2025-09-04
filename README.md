@@ -1,14 +1,17 @@
-# vehicles_env.
-# Aplicación Web de Análisis de Vehículos
+# 🚗 Vehicle Analysis App
 
-Esta aplicación desarrollada en **Streamlit** permite analizar un conjunto de datos de anuncios de vehículos en EE. UU.  
-Los usuarios pueden generar gráficos interactivos utilizando **Plotly Express**:
+Esta es una aplicación desarrollada en **Streamlit** para explorar el dataset de anuncios de vehículos en EE.UU.
 
-- Histograma de la columna `odometer` (kilometraje).
-- Gráfico de dispersión entre `odometer` (kilometraje) y `price` (precio).
+## Funcionalidades
+- Vista previa de los datos filtrados
+- Histogramas interactivos
+- Gráficos de dispersión
+- Comparación de variables por modelo
 
-## Ejecución
-Para iniciar la aplicación, ejecuta:
+## Demo en Render
+👉 Puedes probar la aplicación aquí: [Enlace a la app en Render](https://vehicles-env-1-24cz.onrender.com/)
 
-```bash
-streamlit run app.py
+## Cómo ejecutar localmente
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/brayanpinerdo/vehicles_env..git
